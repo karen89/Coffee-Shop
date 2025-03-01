@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+h2, p, h3{
+    font-family: "Poppins", serif;
+}
+
+header{
+    padding: 16px 0;
+    background-color: rgb(189, 119, 119);
+    color: #ecf0f1;
+}
+
+header {
+    font-weight: normal;
+    margin-left: auto;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, 
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 30px;
+}
+
+.brands-list li {
+    display: block;
+    margin-left: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+   
+}
+
+section {
+    padding: 24px o;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color:rgb(187, 127, 127);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.logo {
+    margin-right: 32px;
+    text-align: center;
+}
+
+.social-link img {
+    height: 24px;
+}
+
+.social-link li {
+    display: inline;
+}
+
+.social-link li a {
+    text-decoration: none;
+}
+
+#contact .container {
+   display: block; 
+}
+
+footer {
+    background-color: rgb(187, 127, 127);
+    color: #ecf0f1;
+    padding: 16px 0;
+}
